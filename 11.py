@@ -4,6 +4,8 @@ import pandas as pd
 import os
 import numpy as np
 import altair as alt
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
 
 model = pickle.load(open('model_prediksi_harga_mobil.sav', 'rb'))
 
